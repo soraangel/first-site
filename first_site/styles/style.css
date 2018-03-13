@@ -1,0 +1,42 @@
+html {
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    background-color: royalblue;
+}
+
+body {
+    width: 25em;
+    margin: 0 auto;
+    background-color: skyblue;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;    
+    color: yellowgreen;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.imgBlock {
+    width: 20em;
+    height: 20em;;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a:hover {
+    color: yellow;
+}
