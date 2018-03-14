@@ -1,0 +1,27 @@
+html {
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    background-color: royalblue;
+}
+
+body {
+    width: 50em;
+    margin: 0 auto;
+    background-color: skyblue;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+    line-height: 1.5rem;
+}
+
+.receiver-column {
+    text-align: right;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+/* ol li {
+    line-height: 1.8rem;
+    margin: 0.2rem 0 0 0;
+} */
