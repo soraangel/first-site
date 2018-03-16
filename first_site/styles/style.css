@@ -8,26 +8,32 @@ body {
     width: 25em;
     margin: 0 auto;
     background-color: skyblue;
-    padding: 0 20px 20px 20px;
+    padding: 2px 2px 2px 2px;
     border: 5px solid black;
+    /* background-image: url("../images/saber.jpg");
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%; */
 }
 
 h1 {
     margin: 0;
-    padding: 20px 0;    
+    padding: 20px 0;
     color: yellowgreen;
     text-shadow: 3px 3px 1px black;
 }
 
-p, li {
+p,
+li {
     line-height: 2;
     letter-spacing: 1px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .imgBlock {
     width: 20em;
-    height: 20em;;
+    height: 20em;
+    ;
 }
 
 img {
@@ -58,4 +64,49 @@ h2 {
 .link-image {
     width: 10%;
     float: left;
+}
+
+header {
+    border: 3px solid orange;
+    padding: 1%;
+    background-color: violet;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main {
+    margin-top: 0.5rem;
+    border: 3px solid orange;
+    padding: 1%;
+    background-color: violet;
+}
+
+nav {
+    height: auto;
+    flex: 100%;
+    display: flex;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+nav a,
+nav span {
+    display: inline-block;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 1.7;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    color: black;
 }
