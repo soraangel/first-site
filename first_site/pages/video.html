@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <link href="../styles/style.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="../s.gif" type="image/gif">
+  <title>Video Page</title>
+</head>
+
+<body>
+  <header>
+    <h1>Video</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="../nav.html" title="Nav" class="link-text">Nav</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <video controls loop preload="auto" poster="../assets/poster.png">
+      <source src="../assets/rabbit320.webm" type="video/webm">
+      <source src="../assets/rabbit320.mp4" type="video/mp4">
+      <track kind="subtitles" src="../assets/sub.vtt" srclang="en" default>
+      <p>This is only for HTML5. Please access
+        <a href="../assets/rabbit320.mp4">this path</a> to instead.</p>
+    </video>
+    <audio controls loop preload="auto">
+      <source src="../assets/viper.mp3" type="audio/mp3">
+      <source src="../assets/viper.ogg" type="audio/ogg">
+      <track kind="subtitles" src="../assets/sub.vtt" srclang="en" default>
+      <p>This is only for HTML5. Please access
+        <a href="../assets/rabbit320.mp4">this path</a> to instead.</p>
+    </audio>
+  </main>
+  <script language="JavaScript" src="scripts/main.js"></script>
+</body>
+
+</html>
