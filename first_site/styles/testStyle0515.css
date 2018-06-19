@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    font-size: 75%;
+    line-height: 1.4;
+    border: solid 2px #ccc;
+    width: 100%;
+}
+
+th,td {
+    padding: .3em .5em;
+    cursor: pointer;
+}
+
+th {
+    font-weight: normal;
+    text-align: left;
+    padding-left: 15px;
+}
+
+td:only-of-type {
+    font-weight: bold;
+    color: #444;
+}
+
+tbody th:not(.end) {
+    background: url(../images/dots.gif) 15px 56% no-repeat;
+    padding-left: 26px;
+}
+
+tbody th.end {
+    background: url(../images/dots2.gif) 15px 56% no-repeat;
+    padding-left: 26px;
+}
+
+thead th {
+    background: #c6ceda;
+    border-color: #fff #fff #888 #fff;
+    border-style: solid;
+    border-width: 1px 1px 2px 1px;
+    padding-left: .5em;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #fef;
+}
+
+tbody tr:hover {
+    background: #fbf;
+}
