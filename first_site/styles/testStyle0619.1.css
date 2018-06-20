@@ -67,3 +67,10 @@ input[type=checkbox] {
     background: white;
     color: black;
 }
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: lowercase;
+}
