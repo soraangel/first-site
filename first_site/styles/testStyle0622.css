@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.news-box {
+    background-color: lightcyan;
+    width: 580px;
+    padding: 10px;
+    font:normal 14px/1.5em simsun, Verdana,Lucida, Arial, Helvetica, sans-serif; /* simsun 字体就是宋体的英文写法 */
+	color:#000000;
+	border:1px solid #333333;
+}
+
+.summary h2, .content h2 {
+    display: none;
+}
+
+.news-box div {
+    padding: 10px;
+}
+
+.content img {
+    margin: 0 auto 1em 20px;
+}
+
+.summary {
+    border: 1px dashed gray;
+    background-color: whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+}
