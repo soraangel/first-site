@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/0625/bg.jpg) repeat-x left bottom #069FFF;
+    font: normal 11px Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+.top {
+    padding: 90px 10px 0;
+}
+
+#logo {
+    margin: 0 auto;
+    width: 780px;
+    height: 150px;
+    background: url(../images/0625/header.jpg) no-repeat left top;
+    border: white 10px solid;
+}
+
+h1 {
+    font: normal 24px Arial, Helvetica, sans-serif;
+    color: #0272BA;
+}
+
+h2 {
+    font: normal 12px Arial, Helvetica, sans-serif;
+    color: #0272BA;
+}
+
+#logo h1 {
+    margin-bottom: 6px;
+    padding: 90px 5px 0 25px;
+}
+
+#logo h2 {
+    padding: 0 5px 0 25px;
+}
+
+.container {
+    background: #FFF;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+    width: 780px;
+}
+
+.navigation {
+    height: 41px;
+    background: url(../images/0625/menu.gif) #D9E1E5;
+    border: 1px solid #dfeef7;
+}
+
+.navigation a {
+    background: url(../images/0625/menu.gif) #D9E1E5;
+    border-right: 1px solid #ffffff;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font: bold 1.1em sans-serif;
+    line-height: 41px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background: #069FFF;
+}
+
+.clear {
+    clear: both;
+}
+
+.main {
+    margin-left: 10px;
+}
+
+.content {
+    width: 500px;
+    float: left;
+}
+
+.content h1 {
+    padding: 20px 0 5px 0;
+}
+
+.content p {
+    padding: 0 0 20px 0;
+}
+
+.content h2 {
+    font: normal 20px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #0272BA;
+}
+
+.content ul {
+    padding-left: 20px;
+}
+
+.sidenav {
+    float: right;
+    width: 210px;
+    margin-top: 10px;
+}
+
+.sidenav h2 {
+    font-size: 1em;
+    color: #5A5A43;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 12px;
+}
+
+.sidenav ul {
+    padding: 0;
+    border-top: #EAEADA 1px solid;
+}
+
+.sidenav li {
+    border-bottom: 1px solid #EAEADA;
+    list-style: none;
+}
+
+.sidenav li a {
+    font-size: 1.1em;
+    color: #554;
+    display: block;
+    padding: 8px 0 8px 5%;
+    text-decoration: none;
+    width: 95%;
+}
+
+.sidenav li a:hover {
+    background: #DCEFFF;
+    color: #654;
+}
+
+#footer {
+    width: 780px;
+    background: url(../images/0625/bgfooter.gif) repeat-x;
+    margin: 20px auto;
+    padding: 0;
+    height: 60px;
+    width: 780px; 
+}
+
+#footer p {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
