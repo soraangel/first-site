@@ -3,3 +3,77 @@
     padding: 0;
 }
 
+body, div, span, p, a, img, ul, ol, li, caption, table, thead, tbody, tfoot, tr, th, td, form, fieldset, legend, label, dl, dt, dd, blockquote, applet, object, h1, h2, h3, h4, h5 {border:0;}
+body {padding:50px 0; background:url("../images/0625.1/bg.gif") 0 0 repeat-x; font:0.8em/1.5 "arial", serif; text-align:center;}
+
+h1, h2, h3, h4, h5, h6 {margin:15px 0 10px 0;}
+h1 {font-size:200%;}
+h2 {font-size:160%;}
+h3 {font-size:140%;}
+h1, h2, h3 {font-weight:normal;}
+h4, h5 {font-size:100%;}
+
+p, table, ul, ol, dl, fieldset {margin:15px 0;}
+
+table {border-collapse:collapse; border-spacing:0; font-size:100%;}
+th {text-align:center; font-weight:bold;}
+th, td {padding:3px 7px;}
+
+ul, ol {margin-left:30px;}
+ul ul, ol ol {margin:0; margin-left:20px;}
+ol {list-style-type:decimal;}
+li {display:list-item;}
+
+dt {font-weight:bold;}
+dd {margin-left:30px;}
+
+fieldset {position:relative; padding:10px;}
+legend {position:absolute; top:-1em; margin:0; padding:5px 10px; font-size:100%; font-weight:bold;}
+
+
+/* Edit */
+
+#main {width:960px; margin:0 auto; text-align:left;}
+
+.noscreen {
+    display: none;
+}
+
+#header {
+    position: relative;
+    height: 200px;
+    background: url(../images/0625.1/header.jpg);
+    overflow:hidden;
+}
+
+#header h1 {
+    margin: 0;
+    text-align: right;
+}
+
+#logo {position:absolute; top:0; right:20px; margin:0; font-size:180%; letter-spacing:-1px;}        
+
+#logo a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px 0 10px;
+}
+
+#nav {padding:0 20px; background:url("../images/0625.1/nav-bottom.gif") 0 100% no-repeat; overflow:hidden;}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline;
+    padding: 0;
+}
+
+#nav ul li a {
+    display: block;
+    float: left;
+    padding: 10px 14px 10px 15px;
+}
