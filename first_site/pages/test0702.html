@@ -2,13 +2,21 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>动态样式</title>
+<title>图像交换样式</title>
 <style type="text/css">
 a {/* 超链接的默认样式 */
-    text-decoration:none; 									/* 清除下划线效果 */
+    text-decoration:none; 								/* 清除默认的下划线 */
+    display:inline-block; 								/* 行内块状显示 */
+    padding:2px 1em; 									/* 为文本添加补白效果 */
+    height:28px; 										/* 固定高度 */
+    line-height:32px; 									/* 行高等于高度，设计垂直居中 */
+    text-align:center; 									/* 文本水平居中 */
+    background:url(../images/0702/b1.gif) no-repeat center; 			/* 定义背景图像1，禁止平铺，居中 */
+    color:#ccc; 										/* 浅灰色字体 */
 }
 a:hover {/* 鼠标经过时样式 */
-    font-size:1.6em; 										/* 放大字体1.6倍显示 */
+    background:url(../images/0702/b2.gif) no-repeat center; 			/* 定义背景图像2，禁止平铺，居中 */
+    color:#fff; 										/* 白色字体 */
 }
 </style>
 </head>

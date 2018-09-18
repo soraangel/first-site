@@ -1,0 +1,34 @@
+body { font-family: "宋体" arial, helvetica, sans-serif; }
+table {
+    border-collapse: collapse;
+    font-size: 75%;
+    line-height: 1.1;
+}
+tr:hover, td.start:hover, td.end:hover { background: #FF9; }
+th, td { padding: .3em .5em; }
+th {
+    font-weight: normal;
+    text-align: left;
+    padding-left: 15px;
+}
+.arrow {
+    background: #eee url(../images/0913/arrow.gif) no-repeat 12px 50%;
+    padding-left: 28px;
+    font-weight: bold;
+    color: #444;
+}
+thead th {
+    background: #c6ceda;
+    border-color: #fff #fff #888 #fff;
+    border-style: solid;
+    border-width: 1px 1px 2px 1px;
+    padding-left: .5em;
+}
+tbody th.start {
+    background: url(../images/0913/dots.gif) 18px 54% no-repeat;
+    padding-left: 26px;
+}
+tbody th.end {
+    background: url(../images/0913/dots2.gif) 18px 54% no-repeat;
+    padding-left: 26px;
+}
