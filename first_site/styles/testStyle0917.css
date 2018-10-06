@@ -1,0 +1,46 @@
+body { font-family: "宋体" arial, helvetica, sans-serif; }
+
+body, div, table, select, option, input, thead, tbody, tfoot, th, tr, td, col {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 22px;
+    /* border: solid 1px gray; */
+}
+
+tbody td {
+    text-align: center;
+    border: solid 1px gray;
+}
+
+tbody td div {
+    padding: 15px 10px;
+    border: solid 5px white;
+}
+
+tbody td:hover, tbody td div:hover {
+    border-color: burlywood;
+    cursor: pointer;
+}
+
+tbody span {
+    display: block;
+    /* position: relative; */
+    /* float: none; */
+}
+
+.chs {
+    font-size: 50%;
+    font-weight: lighter;
+    color: gray;
+}
+
+thead th {
+    border: solid 1px gray;
+    font-size: 70%;
+    font-weight: normal;
+    padding: 5px 10px;
+}

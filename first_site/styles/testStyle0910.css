@@ -1,0 +1,71 @@
+.pic_list {
+    width: 200px;
+    border: 1px solid #D9E5F5;
+    background: url(../images/0712/wrap.jpg) 0 0 repeat-x;
+    font: normal 14px/1.5em "宋体", Verdana, Lucida, Arial, Helvetica, sans-serif;
+}
+
+.pic_list * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} /* 重置图文列表内部所有基本样式 */
+
+.pic_list h3 {
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    text-indent: 12px;
+    font-weight: bold;
+    color: #223A6D;
+    background: url(../images/0712/h3bg.jpg) 0 0 no-repeat;
+}
+
+.content {
+    width: 200px;
+    /* height: 150px; */
+    overflow: hidden;
+    padding: 10px;
+}
+
+.content li {
+    float: left;
+    width: 200px;
+}
+
+.content li a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #333333;
+}
+
+.content span {
+    color: darkgray;
+    margin-left: 5px;
+    font-size: 80%;
+}
+
+.content ol {
+    height:220px; /* 固定榜单列表的整体高度 */
+	padding-left:26px; /* 利用内补丁增加ol容器的空间显示背景图片 */
+	background:url(../images/0712/number.gif) no-repeat 0 0;
+}
+/* .content li img {
+    display: block;
+    width: 134px;
+    height: 101px;
+    padding: 3px;
+    margin-bottom: 8px;
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF
+} */
+
+.content li a:hover {
+    text-decoration: underline;
+    color: #CC0000;
+}
+
+/* .content li img:hover {
+    background-color: #22407E;
+} */
